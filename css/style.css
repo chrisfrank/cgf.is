@@ -1,0 +1,43 @@
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'IBM Plex Mono', 'Menlo', 'Monaco', monospace;
+  font-size: 16px;
+  line-height: 1.25;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1em;
+  margin: 0;
+}
+
+p, li {
+  line-height: 1.5;
+}
+
+a {
+  color: #006bb7;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  transition: all .167s;
+}
+
+a:hover {
+  box-shadow: 0 2px 0 0 #006bb7;
+}
+
+main {
+  margin: auto;
+  max-width: 60ch;
+  padding: 2em 1em;
+}
+
+hr {
+  margin: 2em 0;
+  height: 0;
+  border: none;
+  border-bottom: 1px solid #cfcfcf;
+  transform: translate(0, -1px);
+}

@@ -1,6 +1,15 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
 ---
+
+# Chris Frank
+
+{{ site.description | markdownify }}
+
+---
+
+## Find me on
+
+- [GitHub](https://github.com/chrisfrank)
+- [Dev.to](https://dev.to/chrisfrank)
+- [LinkedIn](https://linkedin.com/in/cgfrank)
